@@ -21,7 +21,7 @@ public class Deck {
 			for (int nameIndex = 0; nameIndex < names.length; nameIndex++) {			
 				String name = names[nameIndex];	
 				String cardName = name + " of " + suit;				
-				int cardValue = nameIndex + 2;			
+				int cardValue = nameIndex;			
 				cards.add(new Card(cardName, cardValue));
 				}
 			}
