@@ -17,11 +17,8 @@ public class Card {
 	public String getName() {
 		return name;
 	}
-	public String toString () {
-		
-		//below I've added .replace because I simply could not figure out how to exclude the word "Card" from the println
-		
-		return Card.class.getSimpleName(). toString().replace("Card","")+name;
+	public String toString () {	
+		return this.getName();
 	}
 	
 }
